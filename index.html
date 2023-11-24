@@ -1,0 +1,107 @@
+<html>
+<title>"In die busillis" - A font derived from "Tudor Black" (1878)</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+@font-face {
+  font-family:"test"; font-weight: 200 700;
+  src:url("/Pass-A38/font/Pass_A38.woff2") format("woff2-variations");
+}
+@font-face {
+  font-family:"test2"; font-style: normal;
+  src:url("font/In die busillis.woff2") format("woff2");
+}
+body { font-family:"test", sans-serif; font-size:16pt;margin:0;padding:0; background: #f3f1ea }
+div { margin:0; padding:0; }
+
+a { color: #06c }
+
+header { width: 100%; margin:0; padding:0 }
+header > div { width:100%; color: #fff }
+header > div.info { background: #5a5351; }
+header > div.titolo { background: #918583; }
+header > div > div { width: 1180px; margin: 0px auto; padding:0 }
+header div div p { margin:0;padding:5px 10px; font-size: 14pt }
+header div div h1 { margin:0;padding:20px 10px; font-size: 30px; font-weight: 400; color: #fff }
+
+section { width: 1180px; margin:60px auto 60px; padding:0 }
+article { width: 890px; margin: 0px 0 0px 290; padding:0 }
+article p { margin: 5px 10px; padding:0; color: #332925 }
+article p.nota { font-size: 14pt; color: #444 }
+article p.nota a.refn { font-weight: 600; }
+
+
+h2 { margin:30px 10px;padding:0; font-size: 40px; font-weight: 400; color: #800 }
+h3 { margin:20px 10px;padding:0; font-size: 32px; font-weight: 400; color: #800 }
+h4 { margin:20px 10px;padding:0; font-size: 24px; font-weight: 400; color: #800 }
+
+a.bia { color: #fff }
+a.ref { font-size: 60%; vertical-align: super; font-weight: 700 }
+
+hr { border:0; border-bottom: 1px solid #666; margin: 20px; padding:0 }
+
+.testo { color: #000; width:90%; margin: 20px 10px; border: 1px solid #888; font-family:"test2", sans-serif; font-size:48pt; background: #f3f1ea; padding: 4px; }
+
+footer { padding:0; margin:0; width: 100%; background: #666; color: #fff }
+footer > div { padding:40 0; margin:0 auto; width: 1180px }
+footer p { margin: 0 10px; font-size: 18px }
+
+p.capol:first-letter { font-family: "test2", sans-serif; font-feature-settings: 'ss01'; float: left; font-size: 6.5rem; margin: 0.05em 0.1em 0 0; color: #06c }
+
+div.side {width: 249px; margin: 30px 0 0; padding:10px 10px 5px; float:left; border-right:1px solid #555; color: #666 }
+
+.evid { color: #000; background: #e9e5d8 }
+
+@media only screen and (max-width: 1200px) {
+ header > div > div { width: 100%; }
+ section { width: 100% }
+ article { width: 100%; margin: 0; }
+ footer > div { width: 100% }
+ div.side {display:none }
+}
+</style>
+<body>
+	<header>
+		<div class="info">
+			<div>
+				<p><a href="https://github.com/m-casanova/In-die-busillis" class="bia">← Github</a></p>
+			</div>
+		</div>
+		<div class="titolo">
+			<div>
+				<h1>In die busillis</h1>
+			</div>
+		</div>
+	</header>
+
+	<section>
+		<div class="side">
+			<p>Una breve descrizione del font derivato da "Tudor Black"</p>
+		</div>
+		<article>
+			<h2>Un font semplice</h2>
+			<p>È possibile testare il font.</p>
+			<textarea rows="5" class="testo">Inserire un testo di prova ÀÈÉÌÒÙàèéìòù"</textarea>
+
+			<h3>Descrizione</h3>
+			
+			<p>Il font "In die busillis" è stato realizzato partendo da scansioni di "<a href="https://fontsinuse.com/typefaces/40819/tudor-black" target="_blank">Tudor Black</a>", disegnato nel 1878 da E.P. Prince e F. Tarrant per Miller & Richard.</p>
+			<p>Il font ha un numero limitato di caratteri ed è pensato prevalentemente per titoli. Non è considerato il corsivo.</p>
+
+			<h3 id="caratteristiche">Capolettera</h3>
+			<p class="capol">Una caratteristica presente nel font è quella di poter mostrare un capolettera per i paragrafi.
+			Nel foglio di stile a <span class="evid">:first-letter</span> del paragrafo si applica uno stile che determina
+			lo spostamento come elemento su più righe (<span class="evid">float:left</span>),
+			la modifica delle dimensioni (<span class="evid">font-size: 6.5rem</span>),
+			l'inserimento di margini per separarlo leggermente dal testo (<span class="evid">margin: 0.05em 0.1em 0 0</span>),
+			il cambio di colore (<span class="evid">color: #06c</span>)
+			e la variante della lettera con cornice (<span class="evid">font-feature-settings: 'ss01'</span>).</p>
+			<p>La variante con cornice si può utilizzare anche in LibreOffice ('In die busillis:ss01').</p>
+		</article>
+	</section>
+	<footer>
+		<div>
+			<p>&copy; 2023 Michele Casanova
+		</div>
+	</footer>
+<body>
+</html>
