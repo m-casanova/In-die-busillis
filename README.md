@@ -1,5 +1,6 @@
 # In die busillis
-* Versione 1.1.
+* Risistemazione del font e aggiunta dei [capolettera del XIX secolo in Petzendorfer](https://archive.org/details/schriftenatlasei00petz/page/n159/mode/2up) con possibilità di creare caratteri bicolori.
+* Versione 1.1
 
 Per testare il font, vedere la [pagina interattiva](https://m-casanova.github.io/In-die-busillis/).
 
