@@ -1,4 +1,5 @@
 # In die busillis
+* Versione 2.131: fix esportazione
 * Versione 2.126: Sistemazione dei capolettera in modo da avere dimensioni ottimali
 * Versione 2.102: Risistemazione del font e aggiunta dei [capolettera del XIX secolo in Petzendorfer](https://archive.org/details/schriftenatlasei00petz/page/n159/mode/2up) con possibilità di creare caratteri bicolori.
 * Versione 1.1: versione iniziale
